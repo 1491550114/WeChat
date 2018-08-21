@@ -22,9 +22,9 @@ https://open.weixin.qq.com/connect/oauth2/authorize?appid=CORPID&redirect_uri=RE
 redirect_uri ： 授权后重定向的回调链接地址，请使用urlencode对链接进行处理
 
 scope : 
-<span>&nbsp;&nbsp;snsapi_base：静默授权，可获取成员的的基础信息（UserId与DeviceId）；</span>
-<span>&nbsp;&nbsp;snsapi_userinfo：静默授权，可获取成员的详细信息，但不包含手机、邮箱；</span>
-<span>&nbsp;&nbsp;snsapi_privateinfo：手动授权，可获取成员的详细信息，包含手机、邮箱</span>
+<p>&nbsp;&nbsp;snsapi_base：静默授权，可获取成员的的基础信息（UserId与DeviceId）；</p>
+<p>&nbsp;&nbsp;snsapi_userinfo：静默授权，可获取成员的详细信息，但不包含手机、邮箱；</p>
+<p>&nbsp;&nbsp;snsapi_privateinfo：手动授权，可获取成员的详细信息，包含手机、邮箱</p>
 
 agentid、state为非必须参数
 
